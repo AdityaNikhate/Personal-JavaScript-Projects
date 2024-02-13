@@ -3,6 +3,9 @@
 
 This JavaScript code is part of a music player project implemented with HTML, CSS, and JavaScript. The player includes play/pause functionality, next and previous track navigation, a progress bar with a time display, and event listeners for user interactions.
 
+## Link to view->
+[link](https://adityanikhate.github.io/Personal-JavaScript-Projects/music-player/)
+
 ## Screenshots
 
 ![App Screenshot](screenshort.png)
