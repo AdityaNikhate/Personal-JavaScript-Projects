@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+  <div id="outer">
+    <div class="music-box-outer">
+      <div id="top">Music Player</div>
+      <hr>
+      <div id="middle">
+        <div class="artist-img"></div>
+      </div>
+      <div id="bottom">
+        <h1>Perfect</h1>
+        <input value="0" type="range" id="musicRange">
+        <div id="time">
+          <div class="left">00:00</div>
+          <div class="right">04:10</div>
+        </div>
+
+        <div class="buttons">
+          <div class="cir-box" id="prev"><i class="ri-rewind-fill"></i></div>
+          <div class="cir-box-mid"><i class="ri-play-fill"></i></div>
+          <div class="cir-box" id="next" style="rotate: 180deg;"><i class="ri-rewind-fill"></i></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
